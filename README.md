@@ -16,12 +16,15 @@ the executable format used by Mac OS X.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/macholib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/macholib-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/macholib-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/macholib-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/macholib/badges/version.svg)](https://anaconda.org/conda-forge/macholib)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/macholib/badges/downloads.svg)](https://anaconda.org/conda-forge/macholib)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-macholib-green.svg)](https://anaconda.org/conda-forge/macholib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/macholib.svg)](https://anaconda.org/conda-forge/macholib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/macholib.svg)](https://anaconda.org/conda-forge/macholib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/macholib.svg)](https://anaconda.org/conda-forge/macholib) |
 
 Installing macholib
 ===================
