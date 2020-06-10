@@ -1,7 +1,7 @@
 About macholib
 ==============
 
-Home: http://bitbucket.org/ronaldoussoren/macholib
+Home: https://github.com/ronaldoussoren/macholib
 
 Package license: MIT
 
