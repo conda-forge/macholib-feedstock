@@ -5,7 +5,7 @@ Home: https://github.com/ronaldoussoren/macholib
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Mach-O header analysis and editing
 
