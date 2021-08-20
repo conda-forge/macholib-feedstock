@@ -1,6 +1,6 @@
 {% set name = "macholib" %}
-{% set version = "1.14" %}
-{% set sha256 = "0c436bc847e7b1d9bda0560351bf76d7caf930fb585a828d13608839ef42c432" %}
+{% set version = "1.15" %}
+{% set sha256 = "196b62c592e46f0859508a73a11eca6b082a5c8db330ba90cb56f2409e48e2d5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,12 +12,12 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -35,10 +35,10 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Mach-O header analysis and editing'
+  summary: Mach-O header analysis and editing
   description: |
-      macholib can be used to analyze and edit Mach-O headers,
-      the executable format used by Mac OS X.
+    macholib can be used to analyze and edit Mach-O headers,
+    the executable format used by Mac OS X.
   doc_url: https://macholib.readthedocs.io/en/latest/
   dev_url: https://github.com/ronaldoussoren/macholib
 
