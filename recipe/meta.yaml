@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=2.7,<3|>=3.4
     - pip
   run:
-    - python
+    - python >=2.7,<3|>=3.4
     - altgraph >=0.15
     - setuptools
 
