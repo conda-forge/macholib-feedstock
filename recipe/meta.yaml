@@ -23,6 +23,7 @@ requirements:
   run:
     - python
     - altgraph >=0.15
+    - setuptools
 
 test:
   imports:
