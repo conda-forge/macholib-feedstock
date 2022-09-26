@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python >=2.7,<3|>=3.4
-    - altgraph >=0.15
+    - altgraph >=0.17
 
 test:
   imports:
