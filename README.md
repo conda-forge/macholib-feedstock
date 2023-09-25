@@ -1,11 +1,11 @@
-About macholib
-==============
+About macholib-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/macholib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ronaldoussoren/macholib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/macholib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mach-O header analysis and editing
 
